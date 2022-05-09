@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    border-bottom: 20px solid white;
+    border-right: 20px solid white;
+    border-left: 20px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+section:first-child {
+    border-top: 20px solid white;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#roma {
+    background-image: url("../img/roma.jpg");
+}
+#napoli {
+    background-image: url("../img/napoli.jpg");
+}
+#milano {
+    background-image: url("../img/milano.jpg");
+}
